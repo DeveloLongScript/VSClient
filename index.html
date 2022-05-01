@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <title>VSS Client</title>
+  </head>
+  <body>
+    <script src="renderer.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<div class="div">
+  <div class="enter-the-url-the-server-is-us">
+    Enter the URL the server is using (example: https://vscode.dev)
+  </div>
+  <input id="url"class="div-2"></div>
+  <div class="div-3" id="message"></div>
+  <button class="span" onclick="submitButtonHit()">Submit</button>
+  <div class="enter-the-url-the-server-is-us" id="message"></div>
+</div>
+<style>
+  .div {
+    display: flex;
+    flex-direction: column;
+    max-width: 1075px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .enter-the-url-the-server-is-us {
+    max-width: 449px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+  }
+  .div-2 {
+    display: flex;
+    max-width: 443px;
+    height: 48px;
+    width: 443px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgba(227, 227, 227, 1);
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+  }
+  .div-3 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 20px;
+    line-height: normal;
+    height: auto;
+
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(255, 0, 0, 1);
+  }
+
+  .span {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 20px;
+    appearance: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgba(63, 87, 171, 1);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+  }
+  .span:focus {
+    background-color: rgb(45, 60, 114);
+  }
+  input {
+      border: none;
+      background-color: transparent;
+      resize: none;
+      outline: none;
+  }
+</style>
+
+  </body>
+</html>

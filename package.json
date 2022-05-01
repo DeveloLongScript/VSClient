@@ -1,0 +1,23 @@
+{
+  "name": "VSClient",
+  "version": "1.0.0",
+  "description": "Connect to a VSCode Session that is via the web.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/DeveloLongScript/VSClient",
+  "keywords": [
+    "VSCode",
+    "server"
+  ],
+  "author": "DeveloLongScript",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^18.0.0",
+    "electron-packager": "^15.5.1"
+  },
+  "dependencies": {
+    "@electron/remote": "^2.0.8"
+  }
+}
